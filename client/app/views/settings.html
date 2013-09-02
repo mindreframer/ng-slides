@@ -1,0 +1,57 @@
+<div class="alert alert-error" ng-show="showRedirectMsg">
+  <strong>Oops!</strong> Cannot find a preview for this Huddle with id {{huddleLocal._id}}.<br />
+  Go back to <a href="#/browse">browsing</a>.
+</div>
+
+<div class="alert alert-error fade in" ng-show="updateError">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong>Oops!</strong> Something went wrong trying to update "{{huddleSettings.huddleName}}". It was probably our fault. Give it another try.
+</div>
+
+<div class="hero-unit">
+  <h1 ng-hide="isEditingName">{{huddleSettings.huddleName}} <i class="icon-pencil" ng-hide="isBlank(huddleSettings.huddleName)" ng-click="editName()"></i></h1>
+  <div ng-show="isEditingName" class="row-fluid">
+    <form>
+      <div class="span10">
+        <input type="text" id="huddleNameEditTextInput" ng-model="huddleSettings.huddleName" ui-keyup="{'esc':'revertHuddleRename()'}" required />
+      </div>
+      <div class="span2">
+         <button type="submit" class="btn" ng-class="{'enabled':!isBlank(huddleSettings.huddleName)}" ng-disabled="isBlank(huddleSettings.huddleName)" ng-click="finishEditName()">Update</button>
+      </div>
+    </form>
+  </div>
+  <p>These settings are optional but adding extra information about your Huddle makes it easier to find it when others are browsing or searching.</p>
+</div>
+
+<form>
+  <fieldset>
+
+    <legend>
+      <div class="step-number"><span>4</span></div>
+      <div class="step-text">Update Huddle Settings</div>
+    </legend>
+
+    <div>
+      <label for="techMain">Main technologies covered:</label>
+      <input type="text" id="tech-main-tags" ui-keyup="{'enter':'save()'}" />
+    </div>
+
+    <div>
+      <label for="techSupporting">Supporting technologies covered:</label>
+      <input type="text" id="tech-supporting-tags" ui-keyup="{'enter':'save()'}" />
+    </div>
+
+    <div>
+      <label for="experience">Level of experience:</label>
+      <input type="text" ng-model="huddleSettings.experience" ng-blur="save()" ui-keyup="{'enter':'save()'}" />
+    </div>
+
+    <div>
+      <label for="duration">Estimated duration to complete:</label>
+      <input type="text" ng-model="huddleSettings.duration" ng-blur="save()" ui-keyup="{'enter':'save()'}" />
+    </div>
+
+  </fieldset>
+</form>
+
+<a href="#/edit/{{huddleLocal._id}}">Edit &raquo;</a>

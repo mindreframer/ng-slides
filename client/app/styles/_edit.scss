@@ -1,0 +1,78 @@
+// *** FILE PANE
+#file-pane {
+  font-size: 15px;
+
+  h2 {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 0px 2px 0px;
+    padding: 2px 4px;
+  }
+
+  .file {
+    opacity: 0.6;
+    overflow: auto;
+    padding: 2px 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $grey;
+    }
+
+    .icon-file {
+      margin-top: 2px;
+    }
+
+    .icon-play {
+      margin-top: 5px;
+      float: right;
+      display: none;
+    }
+
+    &.editing {
+      opacity: 1;
+      .icon-play {
+        display: block;
+      }
+    }
+  }
+
+  #add-section, 
+  #remix-btn {
+    //text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0px 4px;
+    cursor: pointer;
+  }
+
+  hr {
+    margin: 6px 0;
+  }
+
+}
+
+
+// *** EDIT PANE
+
+#edit-pane {
+  font-size: 15px;
+}
+
+#epiceditor {
+  border: 1px solid $grey;
+  height: 80%;
+  min-height: 530px;
+  @include box-shadow(1px 1px 3px darken($grey, 20%));
+  iframe {
+    margin-bottom: -7px;
+  }
+}
+
+
+// *** PREVIEW BTN
+
+#preview {
+  margin-top: 30px
+}
+

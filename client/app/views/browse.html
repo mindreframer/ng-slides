@@ -1,0 +1,66 @@
+<div class="hero-unit">
+  <h1>Browse Huddles</h1>
+  <p>Look through Huddles being shared publicly by other educators. Click on the title to view and find options for remixing.</p>
+</div>
+
+<div class="row-fluid">
+
+<!-- Sidebar content-->
+<div class="span3">
+
+    <fieldset id="browse-type">
+      <label>Browse by:</label>
+      <div class="btn-group">
+        <button class="btn" ng-class="{'selected':orderedByDate()}" ng-click="setOrderFilter('date')">Newest</button>
+        <button class="btn" ng-class="{'selected':!orderedByDate()}" ng-click="setOrderFilter('rank')">Top ranked</button>
+      </div>
+    </fieldset>
+
+    <fieldset id="name-filter">
+      <label>Filter by title:</label>
+      <input type="text" ng-model="query.huddleName">
+    </fieldset>
+
+    <fieldset>
+        <label>Filter by tech:</label>
+        <input name="tags" id="tech-tags" ng-model="query.techTags" ng-init="init()" />
+    </fieldset>
+
+</div><!-- end sidebar -->
+
+<!-- Main content-->
+<div class="span9" id="main">
+  
+    <div class="loading">
+        <!-- Loading... -->
+    </div>
+    <div class="output">
+
+      <div class="num-results">
+        Found {{(huddles|matchHuddle:query).length}} Huddles.
+      </div>
+
+      <div class="huddle" id="huddle-{{huddle._id}}" ng-repeat="huddle in huddles | matchHuddle:query | orderBy:orderByFilter">
+          <div class="ratings">
+              <div class="peer-rank">+5</div>
+              <div class="student-rank">87%</div>
+          </div>
+          <div class="info">
+            <div class="huddle-name">
+              <a href="{{path}}{{huddle._id}}" id="{{huddle._id}}" ng-class="{'highlight':huddle.viewing}" target="_blank">{{huddle.huddleName}}</a>
+            </div>
+            <div class="tech-types" ng-show="(huddle.techMain.length)">
+              <span class="tech-main" ng-repeat="tag in split(huddle.techMain)" ng-click="filterByTag(tag)">{{tag}}</span>
+              <span class="tech-supporting" ng-repeat="tag in split(huddle.techSupporting)" ng-click="filterByTag(tag)">{{tag}}</span>
+            </div>
+            <div>
+              <span class="metadata-label">Created <span class="huddle-date">{{huddle.creationDate | fromNow}}</span> by:</span>
+              <span class="instructor-name">{{huddle.huddleInstructorContact}}</span> 
+            </div>
+          </div>
+      </div><!-- end huddle-{{huddle._id}} -->
+
+    </div>
+</div><!-- end main content -->
+
+</div>

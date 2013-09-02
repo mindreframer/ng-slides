@@ -1,0 +1,13 @@
+<div class="alert alert-error" ng-show="showRedirectMsg">
+  <strong>Oops!</strong> Cannot find a preview for this Huddle with id {{huddleLocal._id}}.<br />
+  Go back to <a href="/#/browse">browsing</a>.
+</div>
+
+<div class="hero-unit">
+  <h1>{{huddleLocal.huddleName}}</h1>
+  <p>Cherry pick individual slides from other people's Huddles.</p>
+</div>
+
+<div class="remix">
+  <button class="btn btn-success" id="{{huddleLocal._id}}" ng-click="remixClicked()"><i class="icon-repeat icon-white"></i> &nbsp; Remix this</button>
+</div>
