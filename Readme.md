@@ -1,4 +1,5 @@
 # Slides:
+  - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
   - https://github.com/geelen/angular_presentation
   - http://prezi.com/8bp0vscfuoly/new-angularjs-presentation/
   - https://speakerdeck.com/pearlchen/angularjs-just-aint-another-mvc-framework
@@ -30,21 +31,33 @@
 
 
 ## Learning:
-  - http://egghead.io
-  - http://thinkster.io
-    - http://www.thinkster.io/pick/GUIDJbpIie/angularjs-tutorial-learn-to-build-modern-web-apps
-  - http://joelhooks.com/blog/2013/08/03/learn-angularjs-in-a-weekend/
-  - http://tekpub.com/products/angular
-  - https://twitter.com/AngularTutorial
-  - http://stackoverflow.com/questions/14333857/how-to-master-angularjs
-    - [Cheatsheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
-    - http://amitgharat.wordpress.com/2013/06/08/the-hitchhikers-guide-to-the-directive/
-    - [DataBindings](http://stackoverflow.com/questions/9682092/databinding-in-angularjs/9693933#9693933)
+  - https://github.com/jmcunningham/AngularJS-Learning (BIG LIST WITH RESOURCES)
+  - http://www.youtube.com/playlist?list=PLfLN8Jd9-DVEQ0-PEnVeeUYyO0yg28mhN
+  Videos:
+    - http://egghead.io
+    - http://thinkster.io
+      - http://www.thinkster.io/pick/GUIDJbpIie/angularjs-tutorial-learn-to-build-modern-web-apps
+    - http://joelhooks.com/blog/2013/08/03/learn-angularjs-in-a-weekend/
+    - http://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/133318-2.html
+    - https://www.video2brain.com/de/videotraining/angularjs-crashkurs
+    - http://tekpub.com/products/angular
+    - https://tutsplus.com/course/easier-js-apps-with-angular/
+    - http://pluralsight.com/training/Courses/TableOfContents/angularjs-fundamentals
+    - http://www.codeschool.com/code_tv/angularjs-part-1
+    - http://www.codeschool.com/code_tv/angularjs-part-2
+  Tutorials:
+    - https://twitter.com/AngularTutorial
+    - http://stackoverflow.com/questions/14333857/how-to-master-angularjs
+      - [Cheatsheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
+      - http://amitgharat.wordpress.com/2013/06/08/the-hitchhikers-guide-to-the-directive/
+      - [DataBindings](http://stackoverflow.com/questions/9682092/databinding-in-angularjs/9693933#9693933)
 
 ## Books:
   - [AngularJS, 2013.04](http://shop.oreilly.com/product/0636920028055.do)
   - [Angularjs in 60 Minutes-ish, 2013.05](http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf)
   - [AngularJS in Action ](http://www.manning.com/bford/)
+  - [Recipes with Angular.js](https://leanpub.com/recipes-with-angular-js)
+  - [Mastering Web Application Development with AngularJS](http://www.packtpub.com/angularjs-web-application-development/book)
 
 
 ### Real projects:
@@ -66,6 +79,7 @@
   - http://code-like-a-poem.blogspot.de/2013/05/angularjs-tutorial-4-file-upload-using.html
   - https://github.com/cotag/condo_example
   - https://github.com/cotag/Condominios (Rails Plugin)
+  - https://github.com/cyu/rack-cors
 
 
 ### REST

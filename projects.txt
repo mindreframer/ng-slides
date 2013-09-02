@@ -2,4 +2,4 @@ https://github.com/angular-app/angular-app.git
 https://github.com/CodeHuddle/codehuddle-webapp.git
 https://github.com/joshdmiller/ng-boilerplate.git
 https://github.com/sk8terboi87/angularjs-tutorial.git
-https://github.com/ThomasBurleson/angularJS-TwitterSearch
+https://github.com/ThomasBurleson/angularJS-TwitterSearch.git
