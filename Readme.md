@@ -32,7 +32,7 @@
 
 ## Learning:
   - https://github.com/jmcunningham/AngularJS-Learning (BIG LIST WITH RESOURCES)
-  - http://www.youtube.com/playlist?list=PLfLN8Jd9-DVEQ0-PEnVeeUYyO0yg28mhN
+  - [Short Angular Tipps](http://www.youtube.com/playlist?list=PLfLN8Jd9-DVEQ0-PEnVeeUYyO0yg28mhN)
   Videos:
     - http://egghead.io
     - http://thinkster.io
