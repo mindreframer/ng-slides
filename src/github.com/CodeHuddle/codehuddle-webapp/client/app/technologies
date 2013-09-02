@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "label": "JavaScript",
+        "value": "JavaScript"
+    },
+    {
+        "id": "2",
+        "label": "HTML",
+        "value": "HTML"
+    },
+    {
+        "id": "3",
+        "label": "CSS",
+        "value": "CSS"
+    }
+]

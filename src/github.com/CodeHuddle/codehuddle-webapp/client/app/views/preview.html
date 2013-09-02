@@ -1,0 +1,46 @@
+<!-- HuddeId: {{huddle._id}} -->
+
+<div class="alert alert-error" ng-show="redirectMsg">
+  <strong>Oops!</strong> Cannot find a preview for this Huddle. {{redirectMsg}}
+</div>
+
+<div class="hero-unit">
+  <h1>{{huddle.huddleName}}</h1>
+  <p>Preview is currently constrained to 1024x768 since that is the most common projector resolution.</p>
+</div>
+
+<iframe ng-src="{{huddleUrl}}" width="1060" height="768" ng-show="huddle" />
+
+<fieldset id="pres-style" ng-show="huddle">
+
+  <legend>
+    <div class="step-number"><span>4</span></div>
+    <div class="step-text">Choose a template type and style</div>
+  </legend>
+ 
+  <div class="row">
+    <div class="span3">
+      <label for="presentation-type">Presentation type</label>
+    </div>
+    <div class="span9">
+      <select>
+        <option>Slide deck</option>
+        <option>Online microsite</option>
+        <option>Blog tutorial</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span3">
+      <label for="presentation-style">Presentation style</label>
+    </div>
+    <div class="span9">
+      <select>
+        <option>Dark</option>
+        <option>Light</option>
+      </select>
+    </div>
+  </div>
+
+</fieldset>

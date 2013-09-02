@@ -1,0 +1,130 @@
+#main {
+  padding-left: 40px;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0 0 35px 0;
+
+  label{
+    margin-bottom: 3px;
+    padding: 0;
+    font-family: $heading_font_family;
+  }
+  .btn-group > .btn {
+    font-size: 17px;
+    width: auto;
+    padding: 4px 14px;
+    &:hover,
+    &.selected {
+      background-image: none;
+      color: darken($red, 10%);
+      border-bottom: 5px solid $red; 
+    }
+    &:hover {
+      background-color: $grey;
+    }
+  }
+}
+
+.num-results {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.tagsinput {
+  &:hover {
+    border-color: darken($yellow, 10%);
+  }
+}
+
+#name-filter {
+  input[type="text"] {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 20px 13px 17px 13px;
+  }
+}
+
+.huddle {
+  overflow: auto;
+  color: $dark_purple;
+  padding: 10px 0px;
+  font-size: 14px;
+  &.selected {
+    background-color: $grey;
+  }
+  .ratings {
+    float: left;
+    width: 95px;
+    height: 78px;
+    text-align: center;
+    margin-right: 20px;
+    background: transparent url(../images/listings-ratings-bg.png) no-repeat 0 0;
+    background-color: $yellow;
+    line-height: 20px;
+    @include border-radius(10px);
+    .peer-rank {
+      padding: 20px 0 3px 0;
+      font-size: 24px;
+    }
+    .student-rank {
+      font-size: 15px;
+    }
+  }
+  .info {
+    float: left;
+    .huddle-name {
+      font-family: $heading_font_family;
+      font-size: 21px;
+      a {
+        color: $dark_purple;
+      }
+    }
+
+    .tech-types {
+      padding: 4px 0 2px 0;
+      text-transform: uppercase;
+      span {
+        color: $white;
+        padding: 5px 10px;
+        margin-right: 6px;
+        @include border-radius(4px);
+        cursor: pointer;
+        display: inline-block;
+      }
+      span:hover {
+        text-decoration: underline;
+      }
+      .tech-main {
+        background-color: $dark_purple;
+      }
+      .tech-supporting {
+        background-color: $light_purple;
+      }
+    }
+    .instructor-name {
+      font-size: 17px;
+    }
+    .metadata-label {
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+  }
+  .remix {
+    float: right;
+    margin-top: 22px;
+    margin-right: 15px;
+    button{
+      text-transform: uppercase;
+      [class^="icon-white"], 
+      [class*=" icon-white"] {
+        margin-top: 1px;
+        background-image: url('/images/glyphicons-halflings-white.png');
+      }
+      color: #fff;
+      font-size: 14px;
+      padding: 6px 14px 3px;
+    }
+  }
+}

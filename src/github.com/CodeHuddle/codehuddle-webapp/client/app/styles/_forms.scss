@@ -1,0 +1,123 @@
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  padding: 22px 13px 20px 13px;
+  width: 100%;
+  color: $dark_purple;
+  //@include border-radius(0);
+  &:focus, &:hover {
+    border-color: darken($yellow, 10%);
+    @include box-shadow(0 0 6px lighten($yellow, 20%));
+  }
+}
+
+label {
+  margin: 8px 0 1px 0;
+}
+
+// HTML5 invalid states
+// Shares styles with the .control-group.error above
+input:focus:required:invalid,
+textarea:focus:required:invalid,
+select:focus:required:invalid {
+  color: #b94a48;
+  // &:focus {
+  //   border-color: darken($yellow, 10%);
+  //   @include box-shadow(0 0 6px lighten($yellow, 20%));
+  // }
+}
+
+input,
+textarea {
+  @include placeholder(#bbb);
+  font-weight: normal;
+}
+
+input:focus,
+textarea:focus {
+  @include placeholder(#fff);
+  font-weight: normal;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 7px 26px 6px;
+  width: 100%;
+  @include border-radius(0);
+  border-bottom: 5px solid rgba(0,0,0,.2);
+  background-image: none;
+  color: $red;
+}
+
+.btn.enabled {
+  &:hover {
+    background-image: none;
+    background-color: $grey;
+    border-bottom: 5px solid $red; 
+    color: darken($red, 10%);
+  }
+}
+
+
+
+fieldset {
+  margin: 10px 0;
+  legend {
+    color: $dark_purple;
+    font-family: $heading_font_family;
+    overflow: auto;
+    margin-bottom: 5px;
+    border-bottom: none;
+  } 
+}
+
+// Number bubbles
+// -------------------------
+$number_diameter: 42px;
+.step-number {
+  float: left;
+  font-family: $heading_font_family;
+  background-color: $yellow; 
+  width: $number_diameter;
+  height: $number_diameter;
+  margin-right: 8px;
+  @include border-radius(50%);
+  span {
+    display: block;
+    margin-top: -1px;
+    padding-left: 2px;
+    font-size: 22px;
+    color: $dark_purple;
+    text-align: center;
+  }
+}
+.step-text {
+  float: left;
+}
+
+.step-info {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+
+// Inline huddle name editing
+// -------------------------
+h1 [class^="icon-"], h1 [class*=" icon-"] {
+  margin-top: 8px;
+  cursor: pointer;
+}
