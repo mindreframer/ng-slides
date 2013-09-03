@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: spokenvote_development
+  host: 127.0.0.1
+  username: <your_postgres_user>
+  password:
+  port: 5432
+  min_messages: warning
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: spokenvote_test
+  host: 127.0.0.1
+  username: <your_postgres_user>
+  password:
+  port: 5432
+  min_messages: warning

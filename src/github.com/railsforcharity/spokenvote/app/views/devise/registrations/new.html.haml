@@ -1,0 +1,33 @@
+.content_page
+  .signup_providers
+    %h2 Sign up through a Service
+    .content_div
+      = link_to image_tag('icons/providers/images/facebook_64.png'), user_omniauth_authorize_path(:facebook)
+      %br
+      %label Facebook
+
+    .hr
+
+  .profile_form
+    %h2 Sign up with SpokenVote
+    = form_for resource, :as => resource_name, :url => registration_path(resource_name) do |f|
+      = devise_error_messages!
+      .control-group
+        = f.label :name, class: 'control-label'
+        .controls
+          = f.text_field :name, :class => 'input-xxlarge'
+      .control-group
+        = f.label :email, class: 'control-label'
+        .controls
+          = f.email_field :email, :class => 'input-xxlarge'
+      .control-group
+        = f.label :password, class: 'control-label'
+        .controls
+          = f.password_field :password
+      .control-group
+        = f.label :password_confirmation, class: 'control-label'
+        .controls
+          = f.password_field :password_confirmation
+      .control-group
+        .controls
+          = f.submit "Join", :class => 'btn btn-primary'
