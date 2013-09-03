@@ -105,3 +105,6 @@
 
 ### Rails
   - http://gaslight.co/blog/4-lessons-learned-doing-angular-on-rails
+  - http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
+  - http://blog.berylliumwork.com/2013/03/best-practice-of-using-angularjs-with.html
+  - http://ngauthier.com/2013/04/learning-angular-on-rails.html

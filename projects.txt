@@ -4,3 +4,4 @@ https://github.com/joshdmiller/ng-boilerplate.git
 https://github.com/sk8terboi87/angularjs-tutorial.git
 https://github.com/ThomasBurleson/angularJS-TwitterSearch.git
 https://github.com/clouddueling/angularjs-common.git
+https://github.com/railsforcharity/spokenvote
