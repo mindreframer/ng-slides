@@ -1,0 +1,139 @@
+!!!
+%html
+  %head
+    %title AngularJS
+    %meta(content="text/html; charset=utf-8" http-equiv="Content-Type")
+    %link(href="/style.css" rel="stylesheet" type="text/css")
+    %link(href="/syntaxhighlighter/shThemeDefault.css" rel="stylesheet" type="text/css")
+    %script(src="/js/jquery-1.7.min.js")
+    %script(src="http://code.angularjs.org/angular-1.0.1.min.js")
+    %script(src="/presentation.js")
+    %script(src="/syntaxhighlighter/shCore.js")
+    %script(src="/syntaxhighlighter/shBrushJScript.js")
+    %script(src="/syntaxhighlighter/shBrushXml.js")
+    %script(src="/shBrushCoffeeScript.js")
+    :javascript
+      SyntaxHighlighter.all();
+  %body(ng-app="PresentationModule" ng-controller="PresentationController")
+    #intro
+      %h1 Sup, AngularJS?
+      %h2 Glen Maddern
+      %h3 @glenmaddern
+      %h3 glen@goodfil.ms
+    %p#counter(ng-show="isInsideDeck()")
+      %a(href="#/slides/1") «
+      {{activeSlide + 1}} / {{totalSlides}}
+      %a(href="#/slides/((totalSlides))") »
+    %deck(current="activeSlide" total="totalSlides")
+      %slide
+        %h2 What is AngularJS?
+        %ul
+          %li It's The Future&trade;, like Rails was back in '05 (imo)
+          %li Just went 1.0.0 (then quickly 1.0.1, sound familiar?)
+          %li Started in 09, run by three Googlers, but not very Googly
+      %slide
+        %h2 Simplest example
+        %example(name="example_simplest")
+      %slide
+        %h2 Live updating
+        %example(name="example_live")
+      %slide
+        %h2 MVC? MVVM? Wat?
+        %ul
+          %li Angular calls itself MVC but I don't buy it.
+          %li Controllers, Directives, Services
+          %li Plain-old-JS objects for models instead of a (potentially fat) Model layer.
+          %li Controllers scoped to DOM
+          %li Directives extend HTML
+          %li Services are your batarangs. Or your bat-utility-belt. Whatever. Anyway they're useful.
+      %slide
+        %h2 Scope
+        %ul
+          %li The communication between a Controller and the DOM
+          %li The simple example before was defining 'bro' on Angular's rootScope
+          %li Let's define our own:
+      %slide
+        %h2 Controller + Scope
+        %example(name="example_scope")
+      %slide
+        %h2 Collections
+        %snippet(source="/example_collections.coffee" highlight="coffeescript")
+        %hr
+        %snippet(source="/example_collections_snippet.html" highlight="html")
+      %slide
+        %h2 Collections
+        %example(name="example_collections")
+      %slide
+        %h2 Data!
+        %snippet(source="/example_data.coffee" highlight="coffeescript")
+        %hr
+        %snippet(source="/example_data_snippet.html" highlight="html")
+      %slide
+        %h2 Data!
+        %example(name="example_data")
+      %slide
+        %h2 Objection!
+        %ul
+          %li But, but, putting JS in HTML is bad!
+          %li Oh wait, no it isn't.
+          %li
+            Doing this a hundred times is bad:
+            %script(type='syntaxhighlighter' class="brush: coffeescript; toolbar: false;")
+              :plain
+                $('a.something').click (e) ->
+                  e.preventDefault(); i.ma(stupid)
+          %li Ember's doing a similar thing (with handlebars extension), and hipsters love it.
+      %slide
+        %img.screenshot(ng-repeat="company in ['microsoft','salesforce','ebay','php']" ng-src="/images/bad_{{company}}.png")
+
+      %slide
+        %h2 HTML is a DSL. Make it pro.
+        %ul
+          %li New tags! New attributes! New all the things!
+          %li Defined using Directives
+          %li Keeps the DOM out of your controllers
+          %li
+            Invoked how you like:
+            %script(type='syntaxhighlighter' class="brush: html; toolbar: false;")
+              :plain
+                <my-tag is="pro">
+                <span my-tag="pro">
+                <span my:tag="pro">
+                <span class="my-tag: pro;">
+                <span data-my-tag="pro">
+
+      %slide
+        %h2 My First Directive
+        %snippet(source="/example_tap_snippet.html" highlight="html")
+        %hr
+        %snippet(source="/example_tap.coffee" highlight="coffeescript")
+
+      %slide
+        %h2 Live iframe
+        %example(name="example_iframe")
+
+      %slide
+        %h2 Live iframe
+        %snippet(source="/example_iframe.coffee" highlight="coffeescript")
+
+      %slide
+        %h2 Go forth!
+        %ul
+          %li No time to talk about routing/services/etc
+          %li Go to http://angularjs.org/
+          %li Watch the videos!
+          %li Hit me up on twitter!
+          %li This presentation (which is an Angular app, of course) is available at https://github.com/geelen/angular_presentation
+
+    :javascript
+       var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32408977-1']);
+        _gaq.push(['_setDomainName', 'sup-angularjs.herokuapp.com/']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
