@@ -20,5 +20,3 @@
   - Directives
   - FormValidations
   - $scope, $http, $routeProvider
-
-
