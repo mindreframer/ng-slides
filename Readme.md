@@ -1,4 +1,11 @@
-# Slides:
+## Start slides
+    $ git clone https://github.com/mindreframer/ng-slides.git
+    $ cd ng-slides/presentation
+    $ open localhost:8000 && python -m SimpleHTTPServer
+
+
+
+# Other Slides:
   - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
   - https://github.com/geelen/angular_presentation
   - http://prezi.com/8bp0vscfuoly/new-angularjs-presentation/
@@ -7,7 +14,6 @@
   - http://net.tutsplus.com/tutorials/javascript-ajax/3-reasons-to-choose-angularjs-for-your-next-project/
   - https://speakerdeck.com/bartes/angularjs-on-the-edge
   - https://speakerdeck.com/jdobry/building-large-apps-with-angularjs
-
 
 
 # Important aspects:
