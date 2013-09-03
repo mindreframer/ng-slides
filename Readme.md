@@ -5,6 +5,7 @@
 # Other Slides:
   - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
   - https://github.com/geelen/angular_presentation
+  - http://www.slideshare.net/simpul/angularjs-directives-dsl-for-your-html
   - http://prezi.com/8bp0vscfuoly/new-angularjs-presentation/
   - https://speakerdeck.com/pearlchen/angularjs-just-aint-another-mvc-framework
   - https://speakerdeck.com/petebd/devox-uk-2013-angularjs
@@ -106,6 +107,7 @@
 
 ### Rails
   - http://gaslight.co/blog/4-lessons-learned-doing-angular-on-rails
+  - Using AngularJS with Rails - NYC Meetup - http://www.slideshare.net/yonkeltron/angularjs-rails-at-wework-or-the-accidental-feature, http://www.youtube.com/watch?v=UjYIVwGbNC4
   - http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
   - http://blog.berylliumwork.com/2013/03/best-practice-of-using-angularjs-with.html
   - http://ngauthier.com/2013/04/learning-angular-on-rails.html
