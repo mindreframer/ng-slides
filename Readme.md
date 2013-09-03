@@ -72,6 +72,7 @@
   - https://github.com/CodeHuddle/codehuddle-webapp.git
   - https://github.com/angular-app/angular-app.git
   - https://github.com/joshdmiller/ng-boilerplate.git
+  - https://github.com/railsforcharity/spokenvote.git
 
 ### In Production:
   - http://www.befundoo.com/blog/real-world-angularjs-applications/
