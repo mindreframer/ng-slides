@@ -14,7 +14,7 @@
         .facepalm(ng-repeat="comment in comments")
           %h6
             {{comment.the_douchebags_name}}
-            %a.upboat(ng-click="upboat(comment)") ⬆
-            %a.report(ng-click="report(comment)") ✖
+            %a.upboat(ng-click="upboat(comment)") up
+            %a.report(ng-click="report(comment)") cross
           %blockquote {{comment.what_the_twit_had_to_say}}
         %h6(ng-hide="comments") No comments yet.

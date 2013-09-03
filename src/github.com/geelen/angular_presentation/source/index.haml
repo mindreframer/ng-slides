@@ -21,9 +21,9 @@
       %h3 @glenmaddern
       %h3 glen@goodfil.ms
     %p#counter(ng-show="isInsideDeck()")
-      %a(href="#/slides/1") «
+      %a(href="#/slides/1") left
       {{activeSlide + 1}} / {{totalSlides}}
-      %a(href="#/slides/((totalSlides))") »
+      %a(href="#/slides/((totalSlides))") right
     %deck(current="activeSlide" total="totalSlides")
       %slide
         %h2 What is AngularJS?
