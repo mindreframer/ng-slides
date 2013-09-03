@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd src/github.com/geelen/angular_presentation
+bundle install
+cd -
+open http://localhost:4567 && cd src/github.com/geelen/angular_presentation && bundle exec ruby server.rb
