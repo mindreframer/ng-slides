@@ -1,9 +1,6 @@
 ## Start slides
     $ git clone https://github.com/mindreframer/ng-slides.git
-    $ cd ng-slides/presentation
-    $ open localhost:8000 && python -m SimpleHTTPServer
-
-
+    $ sh/slides
 
 # Other Slides:
   - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
