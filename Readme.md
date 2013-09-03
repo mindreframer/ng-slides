@@ -32,6 +32,9 @@
     - UI-Router
     - UI-Utils
 
+### Articles
+  - http://angularjs.de/artikel
+
 
 ## Learning:
   - https://github.com/jmcunningham/AngularJS-Learning (BIG LIST WITH RESOURCES)
@@ -50,6 +53,7 @@
     - http://www.codeschool.com/code_tv/angularjs-part-2
   Tutorials:
     - https://twitter.com/AngularTutorial
+    - http://www.ng-newsletter.com/posts/
     - http://stackoverflow.com/questions/14333857/how-to-master-angularjs
       - [Cheatsheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
       - http://amitgharat.wordpress.com/2013/06/08/the-hitchhikers-guide-to-the-directive/
@@ -61,6 +65,7 @@
   - [AngularJS in Action ](http://www.manning.com/bford/)
   - [Recipes with Angular.js](https://leanpub.com/recipes-with-angular-js)
   - [Mastering Web Application Development with AngularJS](http://www.packtpub.com/angularjs-web-application-development/book)
+  - [German online book (WIP)](http://angularjs.de/buch)
 
 
 ### Real projects:
@@ -93,8 +98,10 @@
 ### Images
   - Lazy background: https://github.com/revolunet/rn-lazy.git
 
+
 #### Auth
   - How To Authenticate With AngularJS - (http://www.youtube.com/watch?v=ZHMVP5aLAPM) - (https://gist.github.com/clouddueling/6191173)
+  - http://angularjs.de/artikel/angularjs-login-sicherheit
 
 ### Rails
   - http://gaslight.co/blog/4-lessons-learned-doing-angular-on-rails
