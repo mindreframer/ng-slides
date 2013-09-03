@@ -89,3 +89,9 @@
 
 ### Images
   - Lazy background: https://github.com/revolunet/rn-lazy.git
+
+#### Auth
+  - How To Authenticate With AngularJS - (http://www.youtube.com/watch?v=ZHMVP5aLAPM) - (https://gist.github.com/clouddueling/6191173)
+
+### Rails
+  - http://gaslight.co/blog/4-lessons-learned-doing-angular-on-rails
