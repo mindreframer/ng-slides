@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Angular.js - for better browsers</title>
+		<title>Angular.js - developing in a better browser</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -25,6 +25,15 @@
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
 
+		<style type="text/css">
+
+			.red{
+				color: red;
+				font-weight: bold;
+			}
+		</style>
+
+
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -38,7 +47,7 @@
 			<div class="slides">
 				<section>
 					<h1>Angular.js</h1>
-					<h3>For better browsers</h3>
+					<h3>developing in a better browser</h3>
 					<h4>a short introduction</h4>
 				</section>
 
@@ -73,19 +82,59 @@
 					<p>
 						<ul>
 							<li class="fragment">increases the abstraction level of the browser</li>
+							<li class="fragment"> <span class="red">NO</span> new syntax</li>
+							<li class="fragment">teaches the old browsers new tricks</li>
+							<li class="fragment">familiar, since it's just HTML with new features</li>
 						</ul>
 					</p>
+				</section>
 
+
+				<section>
+					<h2>If you look at an AngularJS application...</h2>
+					<p>
+						<ul>
+							<li class="fragment">there is complete lack of an angular API</li>
+							<li class="fragment">nothing to inherit</li>
+							<li class="fragment">nothing to call</li>
+							<li class="fragment">and no complex life cycle for your controllers to follow</li>
+							<li class="fragment">application code is clean and succinct</li>
+							<li class="fragment">free of functions which hide the problems</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Some quotes</h2>
+					<p>
+						<ul>
+							<li class="fragment">Angular is what the web browser would have been, had it been designed for applications</li>
+							<li class="fragment">Pretty sure that HTML6 is going under the codename @angularjs!</li>
+
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Angular provides</h2>
+					<p>
+						<ul>
+							<li class="fragment">data binding</li>
+							<li class="fragment">components</li>
+							<li class="fragment">dependency injection</li>
+							<li class="fragment">very extensive testing for the application.</li>
+						</ul>
+					</p>
 				</section>
 
 				<section>
 					<h2>Resources</h2>
 					<p>
 						<ul>
-							<li><a href="http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs">Thinkster.io - better way to learn Angular.js</a></li>
-							<li><a href="https://github.com/jmcunningham/AngularJS-Learning">A very long and up-to-date list with links, also in DE/RU</a></li>
-							<li><a href="https://github.com/mindreframer/ng-slides">My link compilation</a></li>
-							<li><a href="https://github.com/mindreframer/angularjs-stuff">My code compilation</a></li>
+							<li class="fragment"><a href="http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs">Thinkster.io - better way to learn Angular.js</a></li>
+							<li class="fragment"><a href="https://github.com/jmcunningham/AngularJS-Learning">A very long and up-to-date list with links, also in DE/RU</a></li>
+							<li class="fragment"><a href="https://github.com/mindreframer/ng-slides">My link compilation</a></li>
+							<li class="fragment"><a href="https://github.com/mindreframer/angularjs-stuff">My code compilation</a></li>
 						</ul>
 					</p>
 				</section>
