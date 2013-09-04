@@ -116,4 +116,5 @@
 
 ### Internationalization / Localization
   - https://github.com/gertn/ng-i18n
+  - http://sbouchard.github.io/angular-dynamic-i18n/#!/usage
   - alternative: http://angularjs.de/artikel/angularjs-i18n-ng-translate (in german)
