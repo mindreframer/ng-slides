@@ -111,3 +111,9 @@
   - http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
   - http://blog.berylliumwork.com/2013/03/best-practice-of-using-angularjs-with.html
   - http://ngauthier.com/2013/04/learning-angular-on-rails.html
+
+
+
+### Internationalization / Localization
+  - https://github.com/gertn/ng-i18n
+  - alternative: http://angularjs.de/artikel/angularjs-i18n-ng-translate (in german)
