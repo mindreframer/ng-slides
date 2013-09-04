@@ -2,18 +2,6 @@
     $ git clone https://github.com/mindreframer/ng-slides.git
     $ sh/slides
 
-# Other Slides:
-  - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
-  - https://github.com/geelen/angular_presentation
-  - http://www.slideshare.net/simpul/angularjs-directives-dsl-for-your-html
-  - http://prezi.com/8bp0vscfuoly/new-angularjs-presentation/
-  - https://speakerdeck.com/pearlchen/angularjs-just-aint-another-mvc-framework
-  - https://speakerdeck.com/petebd/devox-uk-2013-angularjs
-  - http://net.tutsplus.com/tutorials/javascript-ajax/3-reasons-to-choose-angularjs-for-your-next-project/
-  - https://speakerdeck.com/bartes/angularjs-on-the-edge
-  - https://speakerdeck.com/jdobry/building-large-apps-with-angularjs
-
-
 # Important aspects:
 
 
@@ -33,12 +21,9 @@
     - UI-Router
     - UI-Utils
 
-### Articles
-  - http://angularjs.de/artikel
-
-
 ## Learning:
   - https://github.com/jmcunningham/AngularJS-Learning (BIG LIST WITH RESOURCES)
+  - https://github.com/kahlil/angular-resources
   - [Short Angular Tipps](http://www.youtube.com/playlist?list=PLfLN8Jd9-DVEQ0-PEnVeeUYyO0yg28mhN)
   Videos:
     - http://egghead.io
@@ -69,6 +54,43 @@
   - [German online book (WIP)](http://angularjs.de/buch)
 
 
+## Videos
+  - [Testing Strategies for Angular JS, 2013.07](http://www.youtube.com/watch?v=UYVcY9EJcRs)
+  - [Introduction to Angular JS, from David Mosher, 2013.05](http://www.youtube.com/watch?v=8ILQOFAgaXE&feature=youtu.be)
+  - [Re-imagining the browser with AngularJS](http://parleys.com/play/5148922b0364bc17fc56c91b/chapter37/about)
+  - [End to End with Angular JS, 2013.05](http://www.youtube.com/watch?v=hqAyiqUs93c)
+
+
+### Articles
+  - http://angularjs.de/artikel
+  - [ANGULARJS WEBSOCKET SERVICE EXAMPLE, 23 Apr 2013](http://clintberry.com/2013/angular-js-websocket-service/)
+  - [AngularJS: 6 Common Pitfalls Using Scopes, 2013.04](http://thenittygritty.co/angularjs-pitfalls-using-scopes)
+  - [How to create (singleton) AngularJS services in 4 different ways, 2013.03.16](http://blog.jdriven.com/2013/03/how-to-create-singleton-angularjs-services-in-4-different-ways/)
+  - [Proposed AngularJS Project structure, 2013.05](http://www.blogeek.com.ar/2013/05/18/proposed-angulars-project-structure/)
+  - [CheatSheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
+  - [Code Organization in Large AngularJS and JavaScript Applications, 2013.04](http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
+  - http://onehungrymind.com/ng-animate-first-look-with-angularjs-wizard/
+  - http://www.netmagazine.com/tutorials/write-app-angularjs (2013.05)
+  - http://weblogs.asp.net/dwahlin/archive/2013/05/22/dynamically-loading-controllers-and-views-with-angularjs-and-requirejs.aspx (2013.05)
+  - http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html (2013.05)
+  - [Lessons Learned: A Year with a Large AngularJS Project, 2013.05](http://joelhooks.com/blog/2013/05/22/lessons-learned-kicking-off-an-angularjs-project/)
+  - [Developing with AngularJS - Part I: The Basics, 2013.06](http://raibledesigns.com/rd/entry/developing_with_angularjs_part_i)
+  - [Authentication in Single Page Applications with Angular.js, 2013.06](http://www.frederiknakstad.com/authentication-in-single-page-applications-with-angular-js/)
+  - [How do I “think in AngularJS” if I have a jQuery background?](http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background)
+  - [Herding Code 169: Tom Dale and Rob Conery on the EmberJS / AngularJS Cage Match at NDC, a podcast](http://herdingcode.com/herding-code-169-tom-dale-and-rob-conery-on-the-emberjs-angularjs-cage-match-at-ndc/)
+
+
+# Other Slides:
+  - http://www.neevtech.com/blog/2013/08/17/5-cool-features-in-angularjs-1-2/
+  - https://github.com/geelen/angular_presentation
+  - http://www.slideshare.net/simpul/angularjs-directives-dsl-for-your-html
+  - http://prezi.com/8bp0vscfuoly/new-angularjs-presentation/
+  - https://speakerdeck.com/pearlchen/angularjs-just-aint-another-mvc-framework
+  - https://speakerdeck.com/petebd/devox-uk-2013-angularjs
+  - http://net.tutsplus.com/tutorials/javascript-ajax/3-reasons-to-choose-angularjs-for-your-next-project/
+  - https://speakerdeck.com/bartes/angularjs-on-the-edge
+  - https://speakerdeck.com/jdobry/building-large-apps-with-angularjs
+
 ### Real projects:
   - https://github.com/CodeHuddle/codehuddle-webapp.git
   - https://github.com/angular-app/angular-app.git
@@ -85,6 +107,9 @@
     - [Localytics](http://www.localytics.com/blog/2013/angularjs-at-localytics/)
 
 
+## Libraries
+  - [Angulartics - Analytics wrapper, very good integration](http://luisfarzati.github.io/angulartics/)
+
 ### Uploading
   - http://code-like-a-poem.blogspot.de/2013/05/angularjs-tutorial-4-file-upload-using.html
   - https://github.com/cotag/condo_example
@@ -100,6 +125,8 @@
 ### Images
   - Lazy background: https://github.com/revolunet/rn-lazy.git
 
+## Animations:
+  - http://flippinawesome.org/2013/08/05/animating-with-angularjs/
 
 #### Auth
   - How To Authenticate With AngularJS - (http://www.youtube.com/watch?v=ZHMVP5aLAPM) - (https://gist.github.com/clouddueling/6191173)
