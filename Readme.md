@@ -62,6 +62,7 @@
 
 
 ### Articles
+  - [Learn AngularJS With These 5 Practical Examples](http://tutorialzine.com/2013/08/learn-angularjs-5-examples)
   - [The Angular Way, 2013.09](http://flippinawesome.org/2013/09/03/the-angular-way/)
   - http://angularjs.de/artikel
   - [ANGULARJS WEBSOCKET SERVICE EXAMPLE, 23 Apr 2013](http://clintberry.com/2013/angular-js-websocket-service/)
