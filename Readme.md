@@ -62,6 +62,7 @@
 
 
 ### Articles
+  - [The Angular Way, 2013.09](http://flippinawesome.org/2013/09/03/the-angular-way/)
   - http://angularjs.de/artikel
   - [ANGULARJS WEBSOCKET SERVICE EXAMPLE, 23 Apr 2013](http://clintberry.com/2013/angular-js-websocket-service/)
   - [AngularJS: 6 Common Pitfalls Using Scopes, 2013.04](http://thenittygritty.co/angularjs-pitfalls-using-scopes)
