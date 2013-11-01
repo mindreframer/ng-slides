@@ -62,6 +62,7 @@
 
 
 ### Articles
+  - [Optimizing AngularJS: 1200ms to 35ms, 2013.10, Scalyr](http://blog.scalyr.com/2013/10/31/angularjs-1200ms-to-35ms/)
   - [Learn AngularJS With These 5 Practical Examples](http://tutorialzine.com/2013/08/learn-angularjs-5-examples)
   - [The Angular Way, 2013.09](http://flippinawesome.org/2013/09/03/the-angular-way/)
   - http://angularjs.de/artikel
