@@ -8,6 +8,7 @@
 ## Testing:
   - https://speakerdeck.com/amirhhz/testing-with-angularjs
   - http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
+  - [Angular/Jasmine Videos - 2013](http://www.youtube.com/channel/UCdaEMffiYgTf_E7uTMxM4og/videos)
 
 ## Ecosystem:
   - Grunt
